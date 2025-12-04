@@ -272,7 +272,7 @@ const App: React.FC = () => {
       <header className="relative z-10 border-b border-white/5 bg-slate-950/50 backdrop-blur-md sticky top-0">
         <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
           <div className="flex items-center gap-4 group select-none">
-            <div className={`w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg transition-all duration-300 ${customResultVideo ? 'bg-gradient-to-br from-green-500 to-emerald-600 shadow-green-500/20' : 'bg-gradient-to-br from-indigo-600 to-violet-600 shadow-indigo-500/20'}`}>
+            <div className="w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg transition-all duration-300 bg-gradient-to-br from-indigo-600 to-violet-600 shadow-indigo-500/20">
               <Layers className="text-white" size={28} />
             </div>
             <div>
